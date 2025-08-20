@@ -75,6 +75,6 @@ print(f"Minimum: {df['Efficiency_Rate'].min()}")
 print(f"Maximum: {df['Efficiency_Rate'].max()}")
 print(f"Range: {df['Efficiency_Rate'].max() - df['Efficiency_Rate'].min():.2f}")
 
-# Trend Analysis
+# Trend Analysiss
 trend = np.polyfit(range(len(df)), df['Efficiency_Rate'], 1)[0]
-print(f"Quarterly Trend: {trend:.2f} points per quarter")
+print(f"Quarterly Trend: {trend:.2f} points per quarter") 
